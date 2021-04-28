@@ -12,6 +12,7 @@ body {
   font-size: 50px;
   font-style: italic;
   color: mistyrose;
+  transition: linear 5s;
 }
 
 .content h2 {
@@ -32,11 +33,11 @@ body {
 }
 
 .button {
-  background-color: pink;
+  background-color: red;
   border: none;
   color: white;
   padding: 15px 15px;
-  text-align: center;
+  text-align: top;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -51,4 +52,10 @@ body {
   width: 65%;
   margin-left: auto;
   margin-top: -30%;
+  font-style: italic;
+  transition: width 5s linear 1s;
+}
+
+.text-box:hover {
+  font-size: 30px;
 }
